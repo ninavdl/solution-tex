@@ -1,0 +1,69 @@
+\documentclass[fleqn]{solution}
+
+\usepackage{amssymb,amsmath,amsthm,mathtools}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{stmaryrd}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{lipsum}
+
+
+\setgerman % Auskommentieren für Englisch
+\setmodule{Beispielfach} % Modulname hier
+\setsheetnum{1} % Blattnummer hier
+\setgroupnum{5} % Gruppennummer hier (optional)
+
+% Beliebig viele Autoren hier hinzufügen
+\addauthor{Max Mustermann}{123456}
+\addauthor{Anton Alliteration}{654321}
+
+
+% Nummer der ersten Aufgabe (minus 1)
+\setcounter{section}{0}
+
+\begin{document}
+	\maketitle
+	
+	\pointtable
+
+	\begin{exercise}{Aufgabe mit bepunkteten Teilaufgaben}
+		\begin{subexercise}[5]{Teilaufgabe mit Titel}
+			Fubar bar. 
+
+			\begin{subsubexercise}{Etwas}
+				Unter-Teilaufgaben gehen natürlich auch.
+			\end{subsubexercise} 
+
+			\begin{subsubexercise}{}
+				\lipsum[1]
+			\end{subsubexercise}
+		\end{subexercise}
+		\begin{subexercise}[2]{}
+			Dieser kleine Satz ist ganze zwei Punkte wert.
+		\end{subexercise} 
+	\end{exercise}
+	 
+	\begin{exercise}[2.5]{Aufgabe ohne Teilaufgaben}
+		\lipsum[2-3]
+	\end{exercise}
+	
+	\begin{exercise}[4]{Aufgabe mit unbepunkteten Teilaufgaben}
+		Der Leser soll die tolle Kopfzeile zur Kenntnis nehmen.
+
+		Diese Aufgabe gibt vier Punkte, aber es ist nicht genau gegeben,
+		wie viele Punkte jede Teilaufgabe gibt.
+
+		\begin{subexercise}{}
+			Bla
+		\end{subexercise}
+		\begin{subexercise}{}
+			Bla bla
+		\end{subexercise}
+		\begin{subexercise}{}
+			Bla bla bla
+		\end{subexercise}
+	\end{exercise}
+\end{document}
+  
