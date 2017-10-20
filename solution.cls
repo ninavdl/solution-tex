@@ -22,6 +22,7 @@
 \usepackage{ifthen}
 \usepackage{color}
 \usepackage{fancyhdr}
+\usepackage{amssymb,amsmath,amsthm,mathtools} %common math libs, standard on all PCs
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{3pt}
